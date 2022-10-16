@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    border: solid rgb(182, 176, 176);
+}
+.leftside{
+    background-color: rgba(157, 155, 155, 0.855);
+    width: 30%;
+    height: 130vh;
+    padding-top: 60px;
+    padding: 28px;
+    border-radius: 300px 300px 0 0;
+    margin: 50px 0 0 50px;
+}
+header img{
+    width: 120%;
+    border-radius: 50%; 
+    border: solid rgb(235, 239, 243) 10px;
+}
+.rightside{
+    width: 68%;
+    height: 130vh;
+    padding:30px ;
+    padding:0 10px 0 80px
+}
+main p,ul{
+    color: black;
+    font-size:larger;
+}
+p{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+main h4{
+    font-size: xx-large;
+    color:  rgb(11, 11, 99);
+}
+main h3{
+    color:  rgb(11, 11, 99);
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+.chatbox{
+    background-color: rgb(43, 73, 226);
+    height: 5vh;
+    width: 6vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+.chatbox:hover{
+    background-color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+.contact {
+    width: 20px;
+}
+.leftside li{
+    color: black;
+    list-style: none;
+    font-weight: bold;
+}
+.leftside ul{
+    padding-left: 0;
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(11, 11, 99);
+    padding-top: 30px;
+}
+.jobtitle{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: right;
+}
+.socialmedia{
+    width: 30px;
+    margin: 10px;
+}
